@@ -1,0 +1,92 @@
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: rgba(222,222,222,1);
+}
+body {
+	background-color: rgba(55,55,55,1);
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+a:link {
+	color: rgba(222,222,222,1);
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: rgba(155,155,155,1);
+}
+a:hover {
+	text-decoration: underline;
+	color: rgba(255,255,255,1);
+}
+a:active {
+	text-decoration: none;
+	color: rgba(105,105,105,1);
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+	font-size: 150%;
+	color: rgba(222,222,222,1);
+}
+h2 {
+	font-size: 125%;
+	color: rgba(222,222,222,1);
+}
+h3 {
+	font-size: 115%;
+	color: rgba(222,222,222,1);
+}
+h4 {
+	font-size: 105%;
+	color: rgba(222,222,222,1);
+}
+nav {
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 180px;
+	height: 480px;
+	background-color: rgba(255,255,255,0.02);
+}
+ul {
+	margin: 1px;
+	padding: 5px;
+	font-size: 13px;
+	color: rgba(255,255,255,0.8);
+}
+li {
+	margin-left: 5px;
+	padding: 2px;
+	font-size: 13px;
+	color: rgba(255,255,255,0.8);
+	/*list-style: inside;*/
+}
+
+.message {
+	font-size: 9px;
+	color: rgba(255,0,0,0.5);
+}
+
+div {
+	float: right;
+	/*background-color: rgba(255,255,255,0.01);*/
+	height: 480px;
+	width: 700px;
+}
+
+.page_content {
+	
+	background-color: rgba(155,155,155,0.01);
+	width: 500px;
+}
+footer {
+	clear:both;
+	width: 100%;
+}
+
